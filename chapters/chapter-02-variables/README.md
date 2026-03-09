@@ -42,3 +42,12 @@ b = int(input('Enter b: '))
 c = int((a**2) + (b**2))**0.5
 print(c)
 ```
+
+### Exercise 10 — Currency
+```python
+pesos = int(input('What do you have left in pesos? '))
+soles = int(input('What do you have left in soles? '))
+reais = int(input('What do you have left in reais? '))
+total = int((pesos*0.00026) + (soles*0.29) + (reais*0.19))
+print(total)
+```
