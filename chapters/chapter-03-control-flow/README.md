@@ -25,3 +25,12 @@ if num > 0.5:
 else:
   print('Tails')
 ```
+
+### Exercise 12 — Grades
+```python
+grade = 59
+if grade >= 55:
+  print('You passed.')
+else:
+  print('You failed.')
+```
