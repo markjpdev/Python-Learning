@@ -89,3 +89,21 @@ elif height >= min_height and credits < cost:
 else:
   print("You haven't met either requirements")
 ```
+
+### Exercise 15 — The Cyclone
+```python
+min_height = 137
+cost = 10
+
+height = int(input("What is your height (cm)? "))
+credits = int(input("How many credits do you have? "))
+
+if height >= min_height and credits >= cost:
+  print("Enjoy the ride!")
+elif height < min_height and credits >= cost:
+  print("You are not tall enough to ride.")
+elif height >= min_height and credits < cost:
+  print("You don't have enough credits.")
+else:
+  print("You haven't met either requirements")
+```
